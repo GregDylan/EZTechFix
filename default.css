@@ -240,19 +240,19 @@
 	.box4
 	{
 		width: 235px;
+        height: auto;
 	}
 	
 	.box1,
 	.box2,
 	.box3,
+    .box4
 	{
 		float: left;
-		margin-right: 20px;
-	}
-	
-	.box4
-	{
-		float: right;
+		margin-right: 10px;
+        display: inline-block;
+        vertical-align: top;
+        
 	}
 	
 /*********************************************************************************/
@@ -280,7 +280,7 @@
     
     .boxD
     {
-        float:none;
+        float: right;
     }
 
 /*********************************************************************************/
@@ -330,9 +330,7 @@
 	#logo
 	{
 		position: absolute;
-		top: 0.2em;
-        bottom: 0.2em;
-		left: 0;
+        bottom: 0.1em;
 	}
 	
 	#logo h1
@@ -346,16 +344,6 @@
 		text-transform: uppercase;
 		color: #FFF;
 	}
-    
-    #logoimg
-    {        
-        margin-left: 0.3em;
-    }
-    
-    #logotitle
-    {
-        
-    }
 
 /*********************************************************************************/
 /* Menu                                                                          */
